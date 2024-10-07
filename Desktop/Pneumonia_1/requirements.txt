@@ -1,6 +1,5 @@
-
 Flask==1.1.1
-Gunicorn
+Gunicorn==20.1.0
 h5py==2.10.0
 Jinja2==2.10.3
 keras==2.10.0
