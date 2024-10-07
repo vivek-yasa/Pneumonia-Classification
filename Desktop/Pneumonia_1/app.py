@@ -16,7 +16,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 # Load model at the start of the application
-model_path = os.getenv("MODEL_PATH", "Desktop/Pneumonia_1/xception.h5")
+model_path = os.getenv("MODEL_PATH", "xception.h5")
 model = load_model(model_path, compile=False)
 
 # Prediction function
