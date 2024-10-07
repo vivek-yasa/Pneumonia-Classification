@@ -77,5 +77,5 @@ def predict():
     return render_template(output_page, pred_output = pred, img_src=UPLOAD_FOLDER + file.filename)
 
    
-if __name__ == '__main__':
-    app.run(debug=False)
+#if __name__ == '__main__':
+    #app.run(debug=False)
